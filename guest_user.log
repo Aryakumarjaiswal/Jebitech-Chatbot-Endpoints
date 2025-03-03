@@ -1,0 +1,20 @@
+2025-03-02 07:11:34,955 - ERROR - GEMINI_API_KEY environment variable is missing!
+2025-03-02 07:24:41,398 - ERROR - GEMINI_API_KEY environment variable is missing!
+2025-03-02 10:32:08,226 - ERROR - GEMINI_API_KEY environment variable is missing!
+2025-03-02 12:02:34,601 - ERROR - GEMINI_API_KEY environment variable is missing!
+2025-03-02 19:53:39,181 - WARNING - Add of existing embedding ID: 454007_0
+2025-03-02 19:53:39,181 - WARNING - Add of existing embedding ID: 454007_1
+2025-03-02 19:53:39,181 - WARNING - Add of existing embedding ID: 454007_2
+2025-03-02 19:53:39,187 - WARNING - Add of existing embedding ID: 454007_3
+2025-03-02 19:53:39,187 - WARNING - Add of existing embedding ID: 454007_0
+2025-03-02 19:53:39,189 - WARNING - Add of existing embedding ID: 454007_1
+2025-03-02 19:53:39,189 - WARNING - Add of existing embedding ID: 454007_2
+2025-03-02 19:53:39,189 - WARNING - Add of existing embedding ID: 454007_3
+2025-03-02 19:53:39,191 - WARNING - Add of existing embedding ID: 454007_0
+2025-03-02 19:53:39,191 - WARNING - Add of existing embedding ID: 454007_1
+2025-03-02 19:53:39,191 - WARNING - Add of existing embedding ID: 454007_2
+2025-03-02 19:53:39,191 - WARNING - Add of existing embedding ID: 454007_3
+2025-03-03 09:33:39,247 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-03 09:35:57,104 - INFO - SQL query detected in response
+2025-03-03 09:38:02,246 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-03-03 09:38:24,104 - INFO - SQL query detected in response

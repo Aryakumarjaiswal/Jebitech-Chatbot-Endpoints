@@ -1,0 +1,236 @@
+2025-02-28 16:01:06,071 - INFO - Doing Gemini Configuration...
+2025-02-28 16:01:06,071 - INFO - Gemini Key founded !!
+2025-02-28 16:01:06,089 - INFO - Doing Database Configuration...
+2025-02-28 16:01:55,184 - INFO - Doing Database Configuration...
+2025-02-28 16:06:01,232 - INFO - Doing Database Configuration...
+2025-02-28 16:06:01,254 - INFO - 910 given to pid session variable
+2025-02-28 16:06:01,267 - INFO - Inside the External API Calling function
+2025-02-28 16:06:02,433 - INFO - HTTP Request: POST https://shark-app-6wiyn.ondigitalocean.app/api/v1/auth/login "HTTP/1.1 201 Created"
+2025-02-28 16:06:02,433 - INFO - Response statuse code is 201 !!
+2025-02-28 16:06:02,452 - INFO - Inserting Value to session Table
+2025-02-28 16:06:02,585 - INFO - Inserted Value is commited to session Table
+2025-02-28 16:06:02,589 - INFO - user_id, user_role, session_id retrived from login_user
+2025-02-28 16:06:02,589 - INFO - 910  given to session_id session variable
+2025-02-28 16:06:02,589 - INFO -  logged_in session variable set to true
+2025-02-28 16:06:15,339 - INFO - Doing Database Configuration...
+2025-02-28 16:06:15,350 - INFO - User entered Give brief info about property 
+2025-02-28 16:06:16,477 - WARNING - Add of existing embedding ID: 910_0
+2025-02-28 16:06:16,477 - WARNING - Add of existing embedding ID: 910_1
+2025-02-28 16:06:16,478 - WARNING - Add of existing embedding ID: 910_2
+2025-02-28 16:06:16,479 - WARNING - Add of existing embedding ID: 910_3
+2025-02-28 16:06:16,480 - WARNING - Add of existing embedding ID: 910_4
+2025-02-28 16:06:16,481 - WARNING - Add of existing embedding ID: 910_5
+2025-02-28 16:06:16,482 - WARNING - Add of existing embedding ID: 910_6
+2025-02-28 16:06:16,483 - WARNING - Add of existing embedding ID: 910_7
+2025-02-28 16:06:16,484 - WARNING - Add of existing embedding ID: 910_8
+2025-02-28 16:06:16,485 - WARNING - Add of existing embedding ID: 910_9
+2025-02-28 16:06:16,485 - WARNING - Add of existing embedding ID: 910_10
+2025-02-28 16:06:16,486 - WARNING - Add of existing embedding ID: 910_11
+2025-02-28 16:06:16,487 - WARNING - Add of existing embedding ID: 910_12
+2025-02-28 16:06:16,488 - WARNING - Add of existing embedding ID: 910_13
+2025-02-28 16:06:16,488 - WARNING - Add of existing embedding ID: 910_14
+2025-02-28 16:06:16,489 - WARNING - Add of existing embedding ID: 910_15
+2025-02-28 16:06:16,490 - WARNING - Add of existing embedding ID: 910_16
+2025-02-28 16:06:16,490 - WARNING - Add of existing embedding ID: 910_17
+2025-02-28 16:06:16,492 - WARNING - Add of existing embedding ID: 910_18
+2025-02-28 16:06:16,493 - WARNING - Add of existing embedding ID: 910_19
+2025-02-28 16:06:16,494 - WARNING - Add of existing embedding ID: 910_20
+2025-02-28 16:06:18,338 - INFO - 2f182351-e44e-4139-89d3-5d61a1a2ae60 is getting searched in Session_Table  
+2025-02-28 16:06:18,381 - INFO - 2f182351-e44e-4139-89d3-5d61a1a2ae60 is getting searched in Chat Table..  
+2025-02-28 16:06:18,405 - INFO - 2f182351-e44e-4139-89d3-5d61a1a2ae60User with,not found
+2025-02-28 16:06:18,406 - INFO - Time based enteries are happening in session table
+2025-02-28 16:06:18,465 - INFO - First time visit of user thus adding to session table.
+2025-02-28 16:06:18,466 - INFO - All entries done in Chat and session table
+2025-02-28 16:12:26,996 - INFO - Doing Database Configuration...
+2025-02-28 16:12:52,284 - INFO - Doing Database Configuration...
+2025-02-28 16:12:52,337 - INFO - 910 given to pid session variable
+2025-02-28 16:12:52,342 - INFO - Inside the External API Calling function
+2025-02-28 16:12:53,795 - INFO - HTTP Request: POST https://shark-app-6wiyn.ondigitalocean.app/api/v1/auth/login "HTTP/1.1 201 Created"
+2025-02-28 16:12:53,803 - INFO - Response statuse code is 201 !!
+2025-02-28 16:12:53,803 - INFO - Inserting Value to session Table
+2025-02-28 16:12:53,839 - INFO - Inserted Value is commited to session Table
+2025-02-28 16:12:53,855 - INFO - user_id, user_role, session_id retrived from login_user
+2025-02-28 16:12:53,855 - INFO - 910  given to session_id session variable
+2025-02-28 16:12:53,855 - INFO -  logged_in session variable set to true
+2025-02-28 16:14:33,017 - INFO - Doing Database Configuration...
+2025-02-28 16:14:33,023 - INFO - User entered whats property address?
+2025-02-28 16:14:34,309 - INFO - 9ab2bcd0-1625-47bc-a66b-56e6b660eb07 is getting searched in Session_Table  
+2025-02-28 16:14:34,331 - INFO - 9ab2bcd0-1625-47bc-a66b-56e6b660eb07 is getting searched in Chat Table..  
+2025-02-28 16:14:34,336 - INFO - 9ab2bcd0-1625-47bc-a66b-56e6b660eb07User with,not found
+2025-02-28 16:14:34,337 - INFO - Time based enteries are happening in session table
+2025-02-28 16:14:34,359 - INFO - First time visit of user thus adding to session table.
+2025-02-28 16:14:34,359 - INFO - All entries done in Chat and session table
+2025-02-28 16:17:09,670 - INFO - Doing Database Configuration...
+2025-02-28 16:17:09,708 - INFO - User entered whats property address?
+2025-02-28 16:17:11,054 - INFO - 9ab2bcd0-1625-47bc-a66b-56e6b660eb07 is getting searched in Session_Table  
+2025-02-28 16:17:11,123 - INFO - 9ab2bcd0-1625-47bc-a66b-56e6b660eb07 is getting searched in Chat Table..  
+2025-02-28 16:17:11,136 - INFO - User already exists
+2025-02-28 16:17:11,138 - INFO - Ended at column updated in session table
+2025-02-28 16:17:11,139 - INFO - Message appended to existing chat in  session table
+2025-02-28 16:17:11,140 - INFO - Message sended at updated in session table
+2025-02-28 16:17:11,141 - INFO - Chat Duration updated in session table
+2025-02-28 16:17:11,169 - INFO - Chnages for user done
+2025-02-28 16:18:29,604 - INFO - Doing Database Configuration...
+2025-02-28 16:18:29,621 - INFO - User entered Hello
+2025-02-28 16:18:30,765 - INFO - 9ab2bcd0-1625-47bc-a66b-56e6b660eb07 is getting searched in Session_Table  
+2025-02-28 16:18:30,769 - INFO - 9ab2bcd0-1625-47bc-a66b-56e6b660eb07 is getting searched in Chat Table..  
+2025-02-28 16:18:30,771 - INFO - User already exists
+2025-02-28 16:18:30,772 - INFO - Ended at column updated in session table
+2025-02-28 16:18:30,773 - INFO - Message appended to existing chat in  session table
+2025-02-28 16:18:30,774 - INFO - Message sended at updated in session table
+2025-02-28 16:18:30,775 - INFO - Chat Duration updated in session table
+2025-02-28 16:18:30,793 - INFO - Chnages for user done
+2025-02-28 16:18:46,938 - INFO - Doing Database Configuration...
+2025-02-28 16:18:46,954 - INFO - User entered Good Afternoon
+2025-02-28 16:18:48,180 - INFO - 9ab2bcd0-1625-47bc-a66b-56e6b660eb07 is getting searched in Session_Table  
+2025-02-28 16:18:48,183 - INFO - 9ab2bcd0-1625-47bc-a66b-56e6b660eb07 is getting searched in Chat Table..  
+2025-02-28 16:18:48,186 - INFO - User already exists
+2025-02-28 16:18:48,187 - INFO - Ended at column updated in session table
+2025-02-28 16:18:48,188 - INFO - Message appended to existing chat in  session table
+2025-02-28 16:18:48,189 - INFO - Message sended at updated in session table
+2025-02-28 16:18:48,189 - INFO - Chat Duration updated in session table
+2025-02-28 16:18:48,210 - INFO - Chnages for user done
+2025-02-28 16:19:15,971 - INFO - Doing Database Configuration...
+2025-02-28 16:19:15,993 - INFO - User entered can you please transfer my call to your customer representative?
+2025-02-28 16:19:17,263 - INFO - Entry made to ChatTransfer table
+2025-02-28 16:19:17,310 - INFO - Entry made successfully to ChatTransfer table
+2025-02-28 16:19:17,313 - INFO - calling transfer_to_customer_service funtion....
+2025-02-28 16:19:17,315 - INFO - Inside the transfer_to_customer_service
+2025-02-28 16:19:17,315 - INFO - Sure I'm transferring your call to the customer service team. Please wait a moment.
+        Call transferred to the customer service team successfully!!!!
+2025-02-28 16:19:17,316 - INFO - Returning the message from transfer_to_customer_service
+2025-02-28 16:19:17,318 - INFO - 9ab2bcd0-1625-47bc-a66b-56e6b660eb07 is getting searched in Session_Table  
+2025-02-28 16:19:17,321 - INFO - 9ab2bcd0-1625-47bc-a66b-56e6b660eb07 is getting searched in Chat Table..  
+2025-02-28 16:19:17,324 - INFO - User already exists
+2025-02-28 16:19:17,325 - INFO - Ended at column updated in session table
+2025-02-28 16:19:17,326 - INFO - Message appended to existing chat in  session table
+2025-02-28 16:19:17,328 - INFO - Message sended at updated in session table
+2025-02-28 16:19:17,328 - INFO - Chat Duration updated in session table
+2025-02-28 16:19:17,347 - INFO - Chnages for user done
+2025-02-28 16:39:27,580 - INFO - Doing Gemini Configuration...
+2025-02-28 16:39:27,591 - INFO - Gemini Key founded !!
+2025-02-28 16:39:27,694 - INFO - Doing Database Configuration...
+2025-02-28 16:39:27,744 - INFO - User entered property name is ?
+2025-02-28 16:39:29,354 - INFO - 9ab2bcd0-1625-47bc-a66b-56e6b660eb07 is getting searched in Session_Table  
+2025-02-28 16:39:29,400 - INFO - 9ab2bcd0-1625-47bc-a66b-56e6b660eb07 is getting searched in Chat Table..  
+2025-02-28 16:39:29,406 - INFO - User already exists
+2025-02-28 16:39:29,407 - INFO - Ended at column updated in session table
+2025-02-28 16:39:29,407 - INFO - Message appended to existing chat in  session table
+2025-02-28 16:39:29,409 - INFO - Message sended at updated in session table
+2025-02-28 16:39:29,410 - INFO - Chat Duration updated in session table
+2025-02-28 16:39:29,445 - INFO - Chnages for user done
+2025-02-28 17:42:23,610 - INFO - Doing Gemini Configuration...
+2025-02-28 17:42:23,616 - INFO - Gemini Key founded !!
+2025-02-28 17:42:23,641 - INFO - Doing Database Configuration...
+2025-02-28 17:42:31,136 - INFO - Doing Database Configuration...
+2025-02-28 17:42:46,786 - INFO - Doing Database Configuration...
+2025-02-28 17:42:46,804 - INFO - 910 given to pid session variable
+2025-02-28 17:42:46,829 - INFO - Inserting Value to session Table
+2025-02-28 17:42:46,885 - INFO - Inserted Value is commited to session Table
+2025-02-28 17:42:46,888 - INFO - user_id, user_role, session_id retrived from login_user
+2025-02-28 17:42:46,890 - INFO - 910  given to session_id session variable
+2025-02-28 17:42:46,892 - INFO -  logged_in session variable set to true
+2025-02-28 17:42:49,664 - INFO - Doing Database Configuration...
+2025-02-28 17:42:49,674 - INFO - User entered hi
+2025-02-28 17:42:50,591 - WARNING - Add of existing embedding ID: 910_0
+2025-02-28 17:42:50,592 - WARNING - Add of existing embedding ID: 910_1
+2025-02-28 17:42:50,592 - WARNING - Add of existing embedding ID: 910_2
+2025-02-28 17:42:50,593 - WARNING - Add of existing embedding ID: 910_3
+2025-02-28 17:42:50,593 - WARNING - Add of existing embedding ID: 910_4
+2025-02-28 17:42:50,594 - WARNING - Add of existing embedding ID: 910_5
+2025-02-28 17:42:50,596 - WARNING - Add of existing embedding ID: 910_6
+2025-02-28 17:42:50,597 - WARNING - Add of existing embedding ID: 910_7
+2025-02-28 17:42:50,597 - WARNING - Add of existing embedding ID: 910_8
+2025-02-28 17:42:50,598 - WARNING - Add of existing embedding ID: 910_9
+2025-02-28 17:42:50,598 - WARNING - Add of existing embedding ID: 910_10
+2025-02-28 17:42:50,599 - WARNING - Add of existing embedding ID: 910_11
+2025-02-28 17:42:50,599 - WARNING - Add of existing embedding ID: 910_12
+2025-02-28 17:42:50,600 - WARNING - Add of existing embedding ID: 910_13
+2025-02-28 17:42:50,601 - WARNING - Add of existing embedding ID: 910_14
+2025-02-28 17:42:50,602 - WARNING - Add of existing embedding ID: 910_15
+2025-02-28 17:42:50,604 - WARNING - Add of existing embedding ID: 910_16
+2025-02-28 17:42:50,606 - WARNING - Add of existing embedding ID: 910_17
+2025-02-28 17:42:50,607 - WARNING - Add of existing embedding ID: 910_18
+2025-02-28 17:42:50,607 - WARNING - Add of existing embedding ID: 910_19
+2025-02-28 17:42:50,608 - WARNING - Add of existing embedding ID: 910_20
+2025-02-28 17:42:51,719 - INFO - f251d296-06a2-4494-a4ac-a454a29d9351 is getting searched in Session_Table  
+2025-02-28 17:42:51,729 - INFO - f251d296-06a2-4494-a4ac-a454a29d9351 is getting searched in Chat Table..  
+2025-02-28 17:42:51,738 - INFO - f251d296-06a2-4494-a4ac-a454a29d9351User with,not found
+2025-02-28 17:42:51,740 - INFO - Time based enteries are happening in session table
+2025-02-28 17:42:51,776 - INFO - First time visit of user thus adding to session table.
+2025-02-28 17:42:51,777 - INFO - All entries done in Chat and session table
+2025-02-28 18:24:04,927 - INFO - Doing Database Configuration...
+2025-02-28 18:24:14,650 - INFO - Doing Database Configuration...
+2025-02-28 18:24:14,688 - INFO - 910 given to pid session variable
+2025-02-28 18:24:14,706 - INFO - Inserting Value to session Table
+2025-02-28 18:24:14,783 - INFO - Inserted Value is commited to session Table
+2025-02-28 18:24:14,787 - INFO - user_id, user_role, session_id retrived from login_user
+2025-02-28 18:24:14,789 - INFO - 910  given to session_id session variable
+2025-02-28 18:24:14,789 - INFO -  logged_in session variable set to true
+2025-02-28 18:24:21,847 - INFO - Doing Database Configuration...
+2025-02-28 18:24:21,859 - INFO - User entered property address is ?
+2025-02-28 18:24:23,535 - INFO - c28eec41-be22-4a8a-9c49-a7f7bc682d59 is getting searched in Session_Table  
+2025-02-28 18:24:23,571 - INFO - c28eec41-be22-4a8a-9c49-a7f7bc682d59 is getting searched in Chat Table..  
+2025-02-28 18:24:23,586 - INFO - c28eec41-be22-4a8a-9c49-a7f7bc682d59User with,not found
+2025-02-28 18:24:23,592 - INFO - Time based enteries are happening in session table
+2025-02-28 18:24:23,643 - INFO - First time visit of user thus adding to session table.
+2025-02-28 18:24:23,651 - INFO - All entries done in Chat and session table
+2025-03-01 11:52:34,691 - INFO - Doing Gemini Configuration...
+2025-03-01 11:52:34,696 - INFO - Gemini Key founded !!
+2025-03-01 11:52:34,712 - INFO - Doing Database Configuration...
+2025-03-01 11:53:15,524 - INFO - Doing Database Configuration...
+2025-03-01 11:53:15,543 - INFO - 910 given to pid session variable
+2025-03-01 11:53:15,573 - INFO - Inserting Value to session Table
+2025-03-01 11:53:15,643 - INFO - Inserted Value is commited to session Table
+2025-03-01 11:53:15,644 - INFO - user_id, user_role, session_id retrived from login_user
+2025-03-01 11:53:15,645 - INFO - 910  given to session_id session variable
+2025-03-01 11:53:15,647 - INFO -  logged_in session variable set to true
+2025-03-01 11:53:24,094 - INFO - Doing Database Configuration...
+2025-03-01 11:53:24,102 - INFO - User entered hi
+2025-03-01 11:53:25,401 - WARNING - Add of existing embedding ID: 910_0
+2025-03-01 11:53:25,402 - WARNING - Add of existing embedding ID: 910_1
+2025-03-01 11:53:25,402 - WARNING - Add of existing embedding ID: 910_2
+2025-03-01 11:53:25,403 - WARNING - Add of existing embedding ID: 910_3
+2025-03-01 11:53:25,404 - WARNING - Add of existing embedding ID: 910_4
+2025-03-01 11:53:25,405 - WARNING - Add of existing embedding ID: 910_5
+2025-03-01 11:53:25,405 - WARNING - Add of existing embedding ID: 910_6
+2025-03-01 11:53:25,406 - WARNING - Add of existing embedding ID: 910_7
+2025-03-01 11:53:25,407 - WARNING - Add of existing embedding ID: 910_8
+2025-03-01 11:53:25,408 - WARNING - Add of existing embedding ID: 910_9
+2025-03-01 11:53:25,409 - WARNING - Add of existing embedding ID: 910_10
+2025-03-01 11:53:25,410 - WARNING - Add of existing embedding ID: 910_11
+2025-03-01 11:53:25,410 - WARNING - Add of existing embedding ID: 910_12
+2025-03-01 11:53:25,411 - WARNING - Add of existing embedding ID: 910_13
+2025-03-01 11:53:25,412 - WARNING - Add of existing embedding ID: 910_14
+2025-03-01 11:53:25,415 - WARNING - Add of existing embedding ID: 910_15
+2025-03-01 11:53:25,416 - WARNING - Add of existing embedding ID: 910_16
+2025-03-01 11:53:25,417 - WARNING - Add of existing embedding ID: 910_17
+2025-03-01 11:53:25,418 - WARNING - Add of existing embedding ID: 910_18
+2025-03-01 11:53:25,419 - WARNING - Add of existing embedding ID: 910_19
+2025-03-01 11:53:25,419 - WARNING - Add of existing embedding ID: 910_20
+2025-03-01 11:53:26,556 - INFO - 7893f91a-2b0a-4642-9562-50aaff47b501 is getting searched in Session_Table  
+2025-03-01 11:53:26,576 - INFO - 7893f91a-2b0a-4642-9562-50aaff47b501 is getting searched in Chat Table..  
+2025-03-01 11:53:26,596 - INFO - 7893f91a-2b0a-4642-9562-50aaff47b501User with,not found
+2025-03-01 11:53:26,598 - INFO - Time based enteries are happening in session table
+2025-03-01 11:53:26,654 - INFO - First time visit of user thus adding to session table.
+2025-03-01 11:53:26,654 - INFO - All entries done in Chat and session table
+2025-03-01 11:53:37,503 - INFO - Doing Database Configuration...
+2025-03-01 11:53:37,518 - INFO - User entered whats property name?
+2025-03-01 11:53:38,548 - INFO - 7893f91a-2b0a-4642-9562-50aaff47b501 is getting searched in Session_Table  
+2025-03-01 11:53:38,613 - INFO - 7893f91a-2b0a-4642-9562-50aaff47b501 is getting searched in Chat Table..  
+2025-03-01 11:53:38,626 - INFO - User already exists
+2025-03-01 11:53:38,628 - INFO - Ended at column updated in session table
+2025-03-01 11:53:38,630 - INFO - Message appended to existing chat in  session table
+2025-03-01 11:53:38,634 - INFO - Message sended at updated in session table
+2025-03-01 11:53:38,636 - INFO - Chat Duration updated in session table
+2025-03-01 11:53:38,680 - INFO - Chnages for user done
+2025-03-01 11:53:51,427 - INFO - Doing Database Configuration...
+2025-03-01 11:53:51,444 - INFO - User entered whats questions i asked you till now?
+2025-03-01 11:53:52,603 - INFO - 7893f91a-2b0a-4642-9562-50aaff47b501 is getting searched in Session_Table  
+2025-03-01 11:53:52,609 - INFO - 7893f91a-2b0a-4642-9562-50aaff47b501 is getting searched in Chat Table..  
+2025-03-01 11:53:52,614 - INFO - User already exists
+2025-03-01 11:53:52,616 - INFO - Ended at column updated in session table
+2025-03-01 11:53:52,617 - INFO - Message appended to existing chat in  session table
+2025-03-01 11:53:52,618 - INFO - Message sended at updated in session table
+2025-03-01 11:53:52,619 - INFO - Chat Duration updated in session table
+2025-03-01 11:53:52,637 - INFO - Chnages for user done
