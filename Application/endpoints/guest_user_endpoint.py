@@ -144,19 +144,19 @@ def chat_with_bot(session_id: str, user_input: str, db: Session = Depends(get_db
         logging.info("SQL query detected in response")
         
         query_result = execute_sql(conn, generated_sql)
-        
+        generated_sql
         final_response = chat_session.send_message(
             f"User asked: '{user_input}'. The query result is: {query_result}. Format it for user understanding in natural language professionaly."
         )
         response_text = final_response.candidates[0].content.parts[0].text
-        
+        generated_sql=response_text
     else:
         logging.info("Non-SQL response detected")
         
 
     
     user.ended_at = datetime.utcnow()
-    message_container=f"\n USER-> {user_input}\n RESPONSE-> {response_text}"
+    message_container=f"\n USER-> {user_input}\n RESPONSE-> {generated_sql}"
     if user.started_at:
         user.Duration = (user.ended_at - user.started_at).total_seconds() 
     if not record_search:
@@ -178,7 +178,7 @@ def chat_with_bot(session_id: str, user_input: str, db: Session = Depends(get_db
 
     return {"session_id": session_id,
              "User: ":user_input,
-             "AI Response: ":final_response}
+             "AI Response: ":generated_sql}
 
 
 
