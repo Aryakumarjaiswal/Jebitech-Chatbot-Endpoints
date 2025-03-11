@@ -1,6 +1,6 @@
-from sentence_transformers import SentenceTransformer
-from fastapi import APIRouter, HTTPException, Depends
+from fastapi import APIRouter, HTTPException, Depends,Response,Request
 from sqlalchemy.orm import Session
+from fuzzywuzzy import process
 from datetime import datetime
 import pymysql
 import uuid
@@ -8,10 +8,10 @@ import os
 import logging
 from dotenv import load_dotenv
 import google.generativeai as genai
-from Application.database import SessionLocal, Session_Table, Chat
+from Application.database import get_db, Session_Table, Chat
 from Application.guest_user_retriever import collection  
 from Application.endpoints.prompt_generator import guest_prompt
-from Application.sql_response import execute_sql
+from Application.sql_response import execute_sql,get_property_names
 # Configure Logging
 logging.basicConfig(
     level=logging.INFO,
@@ -31,13 +31,8 @@ if not GEMINI_API_KEY:
 genai.configure(api_key=GEMINI_API_KEY)
 
 
-# Define system instruction
-
-
-# Initialize FastAPI app
 guest_router = APIRouter()
 
-# Initialize model
 generation_config = {
     "temperature": 1,
     "top_p": 0.95,
@@ -52,16 +47,10 @@ model2 = genai.GenerativeModel(
     system_instruction=guest_prompt,
 )
 chat_session = model2.start_chat()
-# Dependency to get DB session
-def get_db():
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
+
 
 @guest_router.get("/create_session/")
-def create_session(db: Session = Depends(get_db)):
+def guest_create_session(response:Response,db: Session = Depends(get_db)):
     """Generates a new session ID for a guest user."""
     
     user_id = str(uuid.uuid4())  
@@ -77,6 +66,7 @@ def create_session(db: Session = Depends(get_db)):
 
     db.add(new_session)
     db.commit()
+    response.set_cookie(key="guest_session_id", value=session_id, httponly=True) 
     
     return {
         "message": "Guest session created successfully!!",
@@ -85,65 +75,28 @@ def create_session(db: Session = Depends(get_db)):
     }
 
 @guest_router.post("/chat/guest")
-def chat_with_bot(session_id: str, user_input: str, db: Session = Depends(get_db)):
+def chat_with_bot(request:Request, user_input: str, db: Session = Depends(get_db)):
     """Takes user input, generates LLM response, and appends conversation in DB."""
-    
+    session_id = request.cookies.get("guest_session_id") 
     user = db.query(Session_Table).filter_by(session_id=session_id).first()
     record_search = db.query(Chat).filter_by(session_id=session_id).first()
     
     if not user:
         raise HTTPException(status_code=400, detail="Invalid session ID")
-    
-    # Generate LLM response
-    # embedder = SentenceTransformer("all-MiniLM-L6-v2")
-    # query_embedding = embedder.encode([user_input]).tolist()
-    
-    # # Search for similar documents
-    # results = collection.query(
-    #     query_embeddings=query_embedding,
-    #     n_results=3
-    # )
-
-    
-    
-
-    # # Retrieve context from ChromaDB
-    
-    # context = results['documents'][0]
-    # print("LENGTHHHHHH",len(context))
-    # with open("test.txt", "a") as file:
-        
-    #     file.write(str(context))
-
-    # augmented_query = f"Context: {context}\nQuestion: {user_input}."
-
-    # response = chat.send_message(augmented_query)
-    # final_response=response.text
-    # message_container = f"\n USER-> {user_input}\n RESPONSE-> {final_response}"
-
-    
         
         
-        
-    response = chat_session.send_message(user_input)
+    property_list=get_property_names()
+    property_name, score = process.extractOne(user_input, property_list)
+    print("User Input: ",user_input,"Retrieved property name: ",property_name)
+    modified_input = f"User asked:{user_input},property_name:{property_name}"     
+    response = chat_session.send_message(modified_input)
     generated_sql = response.text
-    try:
-
-        conn = pymysql.connect(
-    host="localhost",
-    user="root",  
-    password="#1Krishna",  
-    database="chatbot_db"  
-)
-        print("Database connection established successfully.")
-    except pymysql.MySQLError as e:
     
-        raise HTTPException( f"MySQL Error: {e}")
 
-    if "SELECT" in generated_sql.upper():
+    if  "property_building" in generated_sql or "nick_name" in generated_sql:
         logging.info("SQL query detected in response")
         
-        query_result = execute_sql(conn, generated_sql)
+        query_result = execute_sql(generated_sql)
         generated_sql
         final_response = chat_session.send_message(
             f"User asked: '{user_input}'. The query result is: {query_result}. Format it for user understanding in natural language professionaly."
