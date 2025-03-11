@@ -11,7 +11,7 @@ import os
 
 
 load_dotenv()
-#   uvicorn Application.endpoints.guest_user_endpoint:app --reload
+
 
 
 
@@ -68,3 +68,10 @@ class ChatTransfer(Base):
 print("Tables to be created:")
 Base.metadata.create_all(bind=engine)
 print("Tables created successfully.")
+
+def get_db():
+    db = SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()
